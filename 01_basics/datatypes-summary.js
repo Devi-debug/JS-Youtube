@@ -22,12 +22,39 @@ const bigNumber = 546546165564
 
 // Array, objects, Functions
 
-const heros = ["shaktiman", "naagraj","Doga"];
-let myObj= {
-    name:"Devi"
-    age:18
-}
+// const heros = ["shaktiman", "naagraj","Doga"];
+// let myObj= {
+//     name:"Devi"
+//     age:18
+// }
 
 const myFunction = function(){
     console.log("Hello world");
 }
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) and Heap memory(Non-primitive)
+
+let myYoutubename="hiteshchoudharydotcom"
+
+let anothername=myYoutubename
+anothername="chaiauurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo=userOne
+userTwo.email="itsomm143@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
